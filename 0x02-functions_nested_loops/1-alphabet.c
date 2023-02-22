@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - prints the lowercase alphabet using _putchar
- */
+* print_alphabet - prints the lowercase alphabet using _putchar
+*/
 void print_alphabet(void)
 {
 	char letter;
