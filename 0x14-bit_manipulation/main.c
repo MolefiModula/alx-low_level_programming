@@ -10,5 +10,8 @@ int get_bit_at_index(unsigned long int num, unsigned int index);
 int set_bit_at_index(unsigned long int *num, unsigned int index);
 int clear_bit_at_index(unsigned long int *num, unsigned int index);
 unsigned int count_flipped_bits(unsigned long int num1, unsigned long intnum2);
+int_atoi(const char*s);
+int_putchar(char c);
+int get_endianness(void);
 
 #endif
