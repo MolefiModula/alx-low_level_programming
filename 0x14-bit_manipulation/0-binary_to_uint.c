@@ -8,23 +8,16 @@
 
 unsigned int binary_to_uint(const char *binary_string)
 {
-	if(binary_string == NULL)
-	{
-		return 0;
-	}
 	unsigned int result = 0;
-	for(int i = 0; binary_string[i] != '\0'; i++)
+
+	if (b == NULL)
+		return 0;
+
+	for(; *binary_string; b++)
 	{
-		if(binary_string[i] == '0')
-		{
-			result = result << 1;
-		}else if (binary_string[i] == '1')
-		{
-			result = (result << 1) | 1;
-		}else
-		{
+		if (binary_string* != '0' && *binary_string != '1')
 			return 0;
-		}
+		result = (result << 1) + (*binary_string - '0');
 	}
 	return result;
 }
