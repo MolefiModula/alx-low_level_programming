@@ -9,6 +9,7 @@ void close_file(int fd);
  * cp - copies the content of a file to another file
  * @file: name of the file buffer storing chars for
  *
+ * Description: copies content to another file and return allocated buffer
  * Return: newly allocated buffer
  */
 char *create_buffer(char *file)
@@ -28,6 +29,7 @@ char *create_buffer(char *file)
 /**
  * close_file - closes fd
  * @fd: the fd to be closed
+ * Description: closes file descriptor
  */
 void close_file(int fd)
 {
